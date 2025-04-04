@@ -1,17 +1,19 @@
 package com.simbasket.game;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Game {
-	private Date date;
-	private String location;
+class Game implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private String name;
+	private String state;
 
-	public Game(Date date, String location) {
-		this.date = date;
-		this.location = location;
+	public Game() {}
+	public Game(String name, String state) {
+		this.name = name;
+		this.state = state;
 	}
-
-	public String getGameDetails() {
-		return "Date: " + date + ", Location: " + location;
-	}
+	public String getName() { return name; }
+	public String getState() { return state; }
+	public void setState(String state) { this.state = state; }
 }

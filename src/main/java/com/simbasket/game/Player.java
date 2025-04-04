@@ -1,15 +1,14 @@
 package com.simbasket.game;
 
-public class Player {
+import java.io.Serializable;
+
+class Player implements Serializable {
+    private static final long serialVersionUID = 1L;
+    private Long id;
     private String name;
-    private String position;
 
-    public Player(String name, String position) {
-        this.name = name;
-        this.position = position;
-    }
-
-    public String getPlayerDetails() {
-        return "Name: " + name + ", Position: " + position;
-    }
+    public Player() {}
+    public Player(String name) { this.name = name; }
+    public Long getId() { return id; }
+    public String getName() { return name; }
 }
