@@ -9,4 +9,5 @@ Uml CLass Diagram
 ![image](https://github.com/user-attachments/assets/090e14f1-fcf4-4c43-a196-2d999358bf09)
 
 [**Figma**](https://www.figma.com/board/q5P8cby9wfSqnHMFcDRle2/SimBasket?node-id=0-1&t=TMLxnFhI2ENEceSw-1)
+![image](https://github.com/user-attachments/assets/dc702d82-0a21-4fd0-b35b-ab9fa9d2126c)
 
